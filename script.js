@@ -1,3 +1,5 @@
+// Calcular Saldo Salário
+
 function calculaSaldoSalario(salario,dias){
     let saldoSalario = (salario/30) *  dias
     return saldoSalario.toFixed(2)
@@ -8,6 +10,8 @@ let salario = 1320
 let dias = 26
 console.log(calculaSaldoSalario(1320,26))
 
+
+// Calcular Férias Proporcionais
 
 function calculaFeriasProporcionais(meses, valor) {
     let feriasProporcionais = (valor/12) * meses 
